@@ -9,16 +9,48 @@ nav {
 }
 
 .logo {
-    width: 40px;
+    width: 40px; 
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.light__Header {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.light__DesktopNavLinks {
+    /* display: none; */
+    flex: 1 1 0%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.light__NavLink {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 900;
+    border-bottom-width: 0px;
+    font-size: 1.5rem !important;
+    margin-left: 0px !important;
+}
+
+.picture {
+    max-width: 500px;
+}
 
 
 
